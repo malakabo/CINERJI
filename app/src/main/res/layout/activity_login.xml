@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:fitsSystemWindows="true"
+    android:background="#0A0A0F"
+    android:padding="28dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CINERJI"
+        android:textColor="#E50914"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:letterSpacing="0.2"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Votre cinéma en poche"
+        android:textColor="#555566"
+        android:textSize="13sp"
+        android:layout_marginBottom="48dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textColor="#888899"
+        android:textSize="12sp"
+        android:layout_marginBottom="6dp"/>
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="exemple@email.com"
+        android:textColorHint="#333344"
+        android:textColor="#EEEEF5"
+        android:background="@drawable/input_modern_bg"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mot de passe"
+        android:textColor="#888899"
+        android:textSize="12sp"
+        android:layout_marginBottom="6dp"/>
+
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="••••••••"
+        android:textColorHint="#333344"
+        android:textColor="#EEEEF5"
+        android:background="@drawable/input_modern_bg"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:inputType="textPassword"
+        android:layout_marginBottom="28dp"/>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="SE CONNECTER"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        android:letterSpacing="0.1"
+        android:textSize="14sp"
+        android:background="@drawable/btn_red_rounded"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:id="@+id/tvRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pas de compte ? S'inscrire →"
+        android:textColor="#E50914"
+        android:textSize="13sp"/>
+</LinearLayout>

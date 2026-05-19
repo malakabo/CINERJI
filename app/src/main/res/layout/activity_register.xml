@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:fitsSystemWindows="true"
+    android:background="#0A0A0F"
+    android:padding="28dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Créer un compte"
+        android:textColor="#F0F0FF"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="6dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rejoins CINERJI gratuitement"
+        android:textColor="#555566"
+        android:textSize="13sp"
+        android:layout_marginBottom="40dp"/>
+
+    <EditText
+        android:id="@+id/editFullName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Nom complet"
+        android:textColorHint="#333344"
+        android:textColor="#EEEEF5"
+        android:background="@drawable/input_modern_bg"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="12dp"/>
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Email"
+        android:textColorHint="#333344"
+        android:textColor="#EEEEF5"
+        android:background="@drawable/input_modern_bg"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="12dp"/>
+
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Mot de passe"
+        android:textColorHint="#333344"
+        android:textColor="#EEEEF5"
+        android:background="@drawable/input_modern_bg"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:inputType="textPassword"
+        android:layout_marginBottom="28dp"/>
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="S'INSCRIRE"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        android:letterSpacing="0.1"
+        android:textSize="14sp"
+        android:background="@drawable/btn_red_rounded"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:id="@+id/tvLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Déjà un compte ? Se connecter →"
+        android:textColor="#E50914"
+        android:textSize="13sp"/>
+</LinearLayout>
